@@ -30,7 +30,7 @@
                     <i class="icon-w p-2 icon-profile fa-solid fa-message"></i>
                     <i class="icon-w p-2 icon-profile fa-solid fa-ellipsis-vertical"></i>
 
-                </div>
+                </div> 
             </div>
 
             <div class="text-notification d-flex align-items-center">
@@ -46,7 +46,7 @@
             <!-- <div class="overflow-auto"> -->
             <div class="list-message">
                 <div class="img-profile d-flex align-items-center p-3"v-for="(lista, i) in listaContatti">
-                    <img src="../img/avatar_1.jpg" alt="" class="img_avatar">
+                    <img :src = "lista.avatar" alt="" class="img_avatar">
                     <div class="name-contact"></div>
                     <div class="text">
                         <h6> {{lista.name}}  </h6>

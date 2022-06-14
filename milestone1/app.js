@@ -9,7 +9,7 @@
 const contatti = [
   {
     name: "Michele",
-    avatar: "avatar_1.jpg",
+    avatar: "../img/avatar_1.jpg",
     visible: true,
     messages: [
       {
@@ -31,7 +31,7 @@ const contatti = [
   },
   {
     name: "Fabio",
-    avatar: "avatar_2.jpg",
+    avatar: "../img/avatar_2.jpg",
     visible: true,
     messages: [
       {
@@ -53,7 +53,7 @@ const contatti = [
   },
   {
     name: "Samuele",
-    avatar: "avatar_3.jpg",
+    avatar: "../img/avatar_3.jpg",
     visible: true,
     messages: [
       {
@@ -75,7 +75,7 @@ const contatti = [
   },
   {
     name: "Alessandro B.",
-    avatar: "avatar_4.jpg",
+    avatar: "../img/avatar_4.jpg",
     visible: true,
     messages: [
       {
@@ -92,7 +92,7 @@ const contatti = [
   },
   {
     name: "Alessandro L.",
-    avatar: "avatar_5.jpg",
+    avatar: "../img/avatar_5.jpg",
     visible: true,
     messages: [
       {
@@ -109,7 +109,7 @@ const contatti = [
   },
   {
     name: "Claudia",
-    avatar: "avatar_6.jpg",
+    avatar: "../img/avatar_6.jpg",
     visible: true,
     messages: [
       {
@@ -131,7 +131,7 @@ const contatti = [
   },
   {
     name: "Federico",
-    avatar: "avatar_7.jpg",
+    avatar: "../img/avatar_7.jpg",
     visible: true,
     messages: [
       {
@@ -148,7 +148,7 @@ const contatti = [
   },
   {
     name: "Davide",
-    avatar: "avatar_8.jpg",
+    avatar: "../img/avatar_8.jpg",
     visible: true,
     messages: [
       {
