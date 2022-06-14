@@ -16,6 +16,7 @@
 <body>
     <div id="app">
         <div class="container d-flex vh-100"">
+            
             <div class=" sidebar">
 
             <div class="profile d-flex align-items-center justify-content-between">
@@ -41,15 +42,17 @@
                 <input type="text" value="" placeholder="Cerca o inizia una nuova chat">
             </div>
 
-            <div class="overflow-auto">
-                <div class="list-message">
-                    <div class="img-profile d-flex align-items-center ">
-                        <img src="../img/avatar_1.jpg" alt="" class="img_avatar">
-                        <div class="name-contact"></div>
-                        <div class="text">
-                            <h5>Michele</h5>
-                            <h6 class="last-access">Ultimo messaggio inviato</h6>
-                        </div>
+            <!-- <div class="overflow-auto"> -->
+            <div class="list-message">
+                <div class="img-profile d-flex align-items-center p-3 ">
+                    <img src="../img/avatar_1.jpg" alt="" class="img_avatar">
+                    <div class="name-contact"></div>
+                    <div class="text">
+                        <h5>Michele</h5>
+                        <h6 class="last-access">Ultimo messaggio inviato</h6>
+                    </div>
+                    <div class="send-hour">
+                        <h6>12.00</h6>
                     </div>
                 </div>
             </div>
@@ -58,7 +61,8 @@
 
         <div class="chat-main flex-grow-1">
             <div class="top-bar d-flex align-items-center justify-content-between">
-                <div class="img-profile d-flex align-items-center ">
+
+                <div class="img-profile d-flex align-items-center p-2 ">
                     <img src="../img/avatar_1.jpg" alt="" class="img_avatar">
                     <div class="name-contact"></div>
                     <div class="text">
@@ -72,22 +76,43 @@
                     <i class="p-2 icon-profile fa-solid fa-ellipsis-vertical"></i>
 
                 </div>
-
-
             </div>
+            <div class="chat-messages p-5">
+                <div class="messages-mine text-end">
+                    <h6>Hai portato a spasso il cane?</h6>
+                </div>
+
+                <div class="messages-mine text-end">
+                    <h6>Ricordati di stendere i panni</h6>
+                </div>
+
+
+                <div class="messages-frnd text-start">
+                    <h6>Tutto fatto!!</h6>
+
+                </div>
+            </div>
+            <div class="bottom-bar d-flex justify-content-around align-items-center">
+                <div class="icon">
+                    <i class="fa-solid fa-face-smile"></i>
+                </div>
+                <div class="send">
+                    <input type="text" placeholder="Scrivi un messaggio">
+                </div>
+
+                <div class="icon">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+            </div>
+
+
 
         </div>
 
-
-
-
-
     </div>
 
 
 
-
-    </div>
     </div>
     <script src="app.js"></script>
 </body>

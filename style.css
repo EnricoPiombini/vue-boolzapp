@@ -5,17 +5,85 @@
 }
 
 .sidebar {
-    
-    width: 300px;
+
+    width: 400px;
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
 }
 
-
-.icon-profile {}
-
 .list-message {
-
+    overflow: auto;
     flex-grow: 1;
+    overflow-y: scroll;
 }
+
+.chat-main {
+    background-image: url(../vue-boolzapp/img/mine.jpg);
+    /* height: calc(100% - 75px); */
+    flex-direction: column;
+    display: flex;
+}
+
+.top-bar,
+.profile {
+    min-height: 75px;
+    background-color: #EAEAEA;
+}
+
+.chat-messages{
+    position: relative;
+    z-index: 1;
+    flex: 1 1 0;
+    order: 0;
+    overflow-y: scroll;
+}
+
+
+
+
+/* .messages-frnd{
+    border-radius: 10px;
+    background: skyblue;
+    width: 35%;
+}; */
+
+
+/* .profile{
+    min-height: 75px;
+} */
+/* .messages {
+    position: relative;
+    width: 100%;
+    margin: 5px 0;
+    text-align: -webkit-right;
+} */
+
+ /* .messages-mine h6 {
+    position: relative;
+    right: 0; 
+    text-align: left;
+    max-width: 37%;
+    padding: 10px;
+    background: #D1F4CC;
+    border-radius: 10px; 
+
+} */
+
+/* .messages-frnd h6 {
+    position: relative;
+    right: 0;
+    text-align: left;
+    max-width: 37%;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+} */ 
+
+.bottom-bar{
+    
+   
+    min-height: 55px;
+    background-color: #F0F2F5;
+    
+};
