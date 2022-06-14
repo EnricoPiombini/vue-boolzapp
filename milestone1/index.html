@@ -14,8 +14,9 @@
 </head>
 
 <body>
+    
     <div id="app">
-        <div class="container d-flex vh-100"">
+        <div class="container d-flex vh-100">
             
             <div class=" sidebar">
 
@@ -25,9 +26,9 @@
                     <h6>Sofia</h6>
                 </div>
                 <div class="icons">
-                    <i class="p-2 icon-profile fa-solid fa-circle-notch"></i>
-                    <i class="p-2 icon-profile fa-solid fa-message"></i>
-                    <i class="p-2 icon-profile fa-solid fa-ellipsis-vertical"></i>
+                    <i class="icon-w p-2 icon-profile fa-solid fa-circle-notch"></i>
+                    <i class="icon-w p-2 icon-profile fa-solid fa-message"></i>
+                    <i class="icon-w p-2 icon-profile fa-solid fa-ellipsis-vertical"></i>
 
                 </div>
             </div>
@@ -39,16 +40,16 @@
 
             <div class="search-chat d-flex align-items-center">
                 <i class="p-4 fa-solid fa-magnifying-glass"></i>
-                <input type="text" value="" placeholder="Cerca o inizia una nuova chat">
+                <input type="text" value="" placeholder="Cerca o inizia una nuova chat" class="border-0 fs-6">
             </div>
 
             <!-- <div class="overflow-auto"> -->
             <div class="list-message">
-                <div class="img-profile d-flex align-items-center p-3 ">
+                <div class="img-profile d-flex align-items-center p-3"v-for="(lista, i) in listaContatti">
                     <img src="../img/avatar_1.jpg" alt="" class="img_avatar">
                     <div class="name-contact"></div>
                     <div class="text">
-                        <h5>Michele</h5>
+                        <h6> {{lista.name}}  </h6>
                         <h6 class="last-access">Ultimo messaggio inviato</h6>
                     </div>
                     <div class="send-hour">
@@ -66,14 +67,14 @@
                     <img src="../img/avatar_1.jpg" alt="" class="img_avatar">
                     <div class="name-contact"></div>
                     <div class="text">
-                        <h5>Michele</h5>
+                        <h6>Michele</h6>
                         <h6 class="last-access">Ultimo messaggio inviato</h6>
                     </div>
                 </div>
                 <div class="icons">
-                    <i class="p-2 icon-profile fa-solid fa-circle-notch"></i>
-                    <i class="p-2 icon-profile fa-solid fa-message"></i>
-                    <i class="p-2 icon-profile fa-solid fa-ellipsis-vertical"></i>
+                    <i class="icon-w p-2 icon-profile fa-solid fa-circle-notch"></i>
+                    <i class="icon-w p-2 icon-profile fa-solid fa-message"></i>
+                    <i class="icon-w p-2 icon-profile fa-solid fa-ellipsis-vertical"></i>
 
                 </div>
             </div>
@@ -94,14 +95,14 @@
             </div>
             <div class="bottom-bar d-flex justify-content-around align-items-center">
                 <div class="icon">
-                    <i class="fa-solid fa-face-smile"></i>
+                    <i class="icon-w fa-solid fa-face-smile"></i>
                 </div>
                 <div class="send">
                     <input type="text" placeholder="Scrivi un messaggio">
                 </div>
 
                 <div class="icon">
-                    <i class="fa-solid fa-microphone"></i>
+                    <i class="icon-w fa-solid fa-microphone"></i>
                 </div>
             </div>
 

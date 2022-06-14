@@ -4,6 +4,11 @@
 
 }
 
+.icon-w{
+    font-size: 20px;
+    color: #54656F;
+}
+
 .sidebar {
 
     width: 400px;
@@ -31,7 +36,7 @@
     background-color: #EAEAEA;
 }
 
-.chat-messages{
+.chat-messages {
     position: relative;
     z-index: 1;
     flex: 1 1 0;
@@ -59,7 +64,7 @@
     text-align: -webkit-right;
 } */
 
- /* .messages-mine h6 {
+/* .messages-mine h6 {
     position: relative;
     right: 0; 
     text-align: left;
@@ -78,12 +83,9 @@
     padding: 10px;
     background: white;
     border-radius: 10px;
-} */ 
+} */
 
-.bottom-bar{
-    
-   
+.bottom-bar {
     min-height: 55px;
     background-color: #F0F2F5;
-    
 };
