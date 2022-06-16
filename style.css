@@ -66,12 +66,13 @@ body {
     width: 70%;
 }
 
+
 .content-mine h6 {
     text-align: left;
     background: white;
     border-radius: 10px;
     padding: 15px;
-}
+} 
 
 .content-frn h6 {
     text-align: left;
