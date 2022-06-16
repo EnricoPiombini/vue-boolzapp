@@ -56,50 +56,31 @@ body {
 
 
 
-/* .messages-frnd{
-    border-radius: 10px;
-    background: skyblue;
-    width: 35%;
-}; */
-
-
-/* .profile{
-    min-height: 75px;
-} */
-/* .messages {
-    position: relative;
-    width: 100%;
-    margin: 5px 0;
-    text-align: -webkit-right;
-} */
-
-/* .messages-mine h6 {
-    position: relative;
-    right: 0; 
-    text-align: left;
-    max-width: 37%;
-    padding: 10px;
-    background: #D1F4CC;
-    border-radius: 10px; 
-
-} */
-
-/* .messages-frnd h6 {
-    position: relative;
-    right: 0;
-    text-align: left;
-    max-width: 37%;
-    padding: 10px;
-    background: white;
-    border-radius: 10px;
-} */
 
 .bottom-bar {
     min-height: 55px;
     background-color: #F0F2F5;
 }
 
-;
+.content {
+    width: 70%;
+}
+
+.content-mine h6 {
+    text-align: left;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.content-frn h6 {
+    text-align: left;
+    background: #D1F4CC;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 35px;
+}
+
 
 .input-w-80 {
     width: 80%;
